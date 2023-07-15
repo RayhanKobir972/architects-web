@@ -18,6 +18,9 @@
     padding: 20px 25px;
     cursor: pointer;
 }
+.text-light-gray {
+    color: #727272;
+}
 
 /* Header styles */
 header {
@@ -67,9 +70,7 @@ nav li a {
     color: #131313;
 }
 
-.banner-description {
-    color: #727272;
-}
+
 .banner img{
     margin-top: 20px;
     width: 100%;
@@ -118,6 +119,16 @@ main{
     nav ul{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .teams-content{
+        padding-right: 20px ;
+        padding-left: 20px;
+    }
 }
 
 /* Tablet orMedium devices */
@@ -128,4 +139,8 @@ main{
     nav{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column;
+    }
+
 }

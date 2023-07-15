@@ -10,9 +10,13 @@
 .primary-btn {
     width: 180px;
     height: 64px;
+    font-size: 1.25rem;
+    color: #FFF;
     border-radius: 8px;
     background: #FF900E;
-    border:none
+    border:none;
+    padding: 20px 25px;
+    cursor: pointer;
 }
 
 /* Header styles */
@@ -65,4 +69,33 @@ nav li a {
 
 .banner-description {
     color: #727272;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* Responsive media queries */
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+/* Tablet orMedium devices */
+@media screen and (min-width: 576px) and (max-width: 960px)  {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
